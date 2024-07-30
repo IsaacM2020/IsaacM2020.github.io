@@ -1,6 +1,87 @@
-<html>
-  <h1>hey, i am isaac</h1>
-  <h2>welcome to my blog</h2>
-  <h3>i study in nps</h3>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Blogs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .main-content, .about, .contact, .video {
+            margin: 2em 0;
+        }
+        .video iframe {
+            width: 100%;
+            height: 400px;
+        }
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Isaac Blogs</h1>
+        <nav>
+            <a href="#about">About Me</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#content">Blog Posts</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="video" class="video">
+            <h2>Featured Video</h2>
+            <!-- Add your video embed code here -->
+            <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Isaac! Welcome to my blog where I share my thoughts on various topics. Stay tuned for more updates!</p>
+        </div>
+
+        <div id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at: <a href="mailto:isaac@example.com">isaac@example.com</a></p>
+        </div>
+
+        <div id="content" class="main-content">
+            <h2>Blog Posts</h2>
+            <!-- Main content area for your blog posts -->
+            <article>
+                <h3>Blog Post Title 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec bibendum quam.</p>
+            </article>
+            <article>
+                <h3>Blog Post Title 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec bibendum quam.</p>
+            </article>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Isaac Blogs. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#about">About Me</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#content">Blog Posts</a>
+        </div>
+    </footer>
+</body>
 </html>
