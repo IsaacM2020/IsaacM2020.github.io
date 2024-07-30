@@ -6,15 +6,15 @@
     <title>Isaac's Adventures</title>
     <style>
         @font-face {
-            font-family: 'SF Pro';
-            src: url('path/to/SFPro.woff2') format('woff2'),
-                 url('path/to/SFPro.woff') format('woff');
+            font-family: 'SF Compact';
+            src: url('path/to/SFCompact.woff2') format('woff2'),
+                 url('path/to/SFCompact.woff') format('woff');
             font-weight: 400;
             font-style: normal;
         }
         
         body {
-            font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'SF Compact', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #ffffff;
@@ -45,6 +45,7 @@
             padding: 2em;
             background: #ffffff;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
         }
         .section h2 {
             margin-top: 0;
@@ -54,6 +55,7 @@
             width: 100%;
             height: 450px;
             border: none;
+            border-radius: 15px;
         }
         footer p {
             margin: 0.5em 0;
@@ -64,51 +66,36 @@
     <header>
         <h1>Isaac's Adventures</h1>
         <nav>
-            <a href="#video">Video</a>
-            <a href="#about">About Me</a>
-            <a href="#contact">Contact</a>
-            <a href="#content">Blog Posts</a>
+            <a href="#about">About</a>
+            <a href="#videos">Vlog Videos</a>
+            <a href="#fun">Fun Stuff</a>
         </nav>
     </header>
 
     <div class="container">
-        <div id="video" class="section video">
-            <h2>Featured Video</h2>
+        <div id="about" class="section about">
+            <h2>About</h2>
+            <p>Hi, I'm Isaac! Join me on my weekly adventures where I explore new places, try new activities, and share my experiences with you.</p>
+        </div>
+
+        <div id="videos" class="section video">
+            <h2>Vlog Videos</h2>
             <!-- Add your video embed code here -->
             <iframe src="https://www.youtube.com/embed/your-video-id" allowfullscreen></iframe>
         </div>
 
-        <div id="about" class="section about">
-            <h2>About Me</h2>
-            <p>Hi, I'm Isaac! Join me on my weekly adventures where I explore new places, try new activities, and share my experiences with you.</p>
-        </div>
-
-        <div id="contact" class="section contact">
-            <h2>Contact</h2>
-            <p>Have questions or want to connect? Reach out to me at: <a href="mailto:isaac@example.com">isaac@example.com</a></p>
-        </div>
-
-        <div id="content" class="section main-content">
-            <h2>Blog Posts</h2>
-            <!-- Main content area for your blog posts -->
-            <article>
-                <h3>Exploring the Mountains</h3>
-                <p>Last weekend, I hiked up the majestic mountains and the view from the top was breathtaking. Here’s my story...</p>
-            </article>
-            <article>
-                <h3>A Day at the Beach</h3>
-                <p>Spent a sunny day at the beach, enjoying the waves and the sand. Check out the highlights of my beach adventure...</p>
-            </article>
+        <div id="fun" class="section fun">
+            <h2>Fun Stuff</h2>
+            <p>Here you'll find some of the fun and interesting activities I've tried out. Stay tuned for more exciting updates!</p>
         </div>
     </div>
 
     <footer>
         <p>&copy; 2024 Isaac's Adventures. All rights reserved.</p>
         <nav>
-            <a href="#video">Video</a>
-            <a href="#about">About Me</a>
-            <a href="#contact">Contact</a>
-            <a href="#content">Blog Posts</a>
+            <a href="#about">About</a>
+            <a href="#videos">Vlog Videos</a>
+            <a href="#fun">Fun Stuff</a>
         </nav>
     </footer>
 </body>
